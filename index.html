@@ -3,7 +3,8 @@
   
   <head>
     
-    <title>🚀Alfonso Flores</title>
+<title>Alfonso Flores</title>
+    <link rel="shortcut icon" href="./Styles/saucer.png">
     <meta name="keywords" content="Alfonso Flores, Alfonso Flores Zenteno, Developer, Desarrollador"/>
     <meta name="description" content="Este sitio web presenta las habilidades, formación y experiencia laboral de Alfonso Flores."/>
     <meta name="author" content="Alfonso Flores Zenteno"/>
@@ -49,7 +50,7 @@
       <h2 class="SectionTitle">🖖About me</h2>
 
       <div id="About-img">
-        <img src="https://bit.ly/3eXPTIH" alt="Profile image" class="ProfilePic"/>
+        <img src="./Styles/profile.png" alt="Profile image" class="ProfilePic"/>
       </div>
 
       <p id="About-text">
@@ -211,42 +212,23 @@
     </section>
 
     <section id="Contact" class="CVSection">
-      <h2>👋Contact Me !</h2>
+      
+      <h2>👋First Contact</h2>
 
-      <form>
-        <table>
-          <tr>
-            <td>
-              <label for="name">Name:</label>
-            </td>
-            <td>
-              <input type="text" id="name" />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="email">Email:</label>
-            </td>
-            <td>
-              <input type="email" id="email"/>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="message">Message:</label>
-            </td>
-            <td>
-              <textarea name="message" id="message" rows="10" cols="21">Hi Alf !</textarea>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2">
-              <!-- <button type="button" onClick="alert('Hi Alf !')">Send</button> -->
-              <input type="submit" onClick="alert('Hi Alf !')" value="Send">
-            </td>
-          </tr>
-        </table>
-      </form>
+      <section id="contact-form">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email"placeholder="Enter your email" />
+
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" placeholder="Enter a message for me" rows="5" cols="21">Hi Alf !</textarea>
+
+        <input type="submit" onClick="sendContact()" value="Send">
+
+      </section>
 
     </section>
 
@@ -256,12 +238,12 @@
         <i class="fab fa-facebook-f"></i>
       </a>
 
-      <a id="github" href="https://github.com/alfonso98">
-        <i class="fab fa-github"></i>
-      </a>
-
       <a id="linkedin" href="https://www.linkedin.com/in/alfonsoflores98/">
         <i class="fab fa-linkedin-in"></i>
+      </a>
+
+      <a id="github" href="https://github.com/alfonso98">
+        <i class="fab fa-github"></i>
       </a>
 
       <a id="medium" href="https://alfonsofloreszenteno.medium.com/">

@@ -230,12 +230,14 @@ input[type=text], input[type=email], textarea {
   border-radius: 4px;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
 }
 
 input[type=submit] {
   width: 100%;
   background-color: #4CAF50;
   color: white;
+  font-size: 20px;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -421,18 +423,24 @@ input[type=submit]:hover {
   
   #Contact {
     display: grid;
-    grid-template: 1fr 4fr / 2fr 6fr 2fr;
+    grid-template: 1fr 1fr 1fr 2fr 1fr / 2fr 3fr 3fr 2fr;
   }
 
   #Contact h2 {
     grid-row: 1/2;
-    grid-column: 2/3;
+    grid-column: 2/4;
     font-size: 7vw;
   }
 
-  #Contact form {
-    grid-row: 2/3;
-    grid-column: 2/3;
+  #contact-form {
+    grid-row: 2/6;
+    grid-column: 2/4;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #contact-form label {
+    font-size: 25px;
   }
 
   #Footer {
