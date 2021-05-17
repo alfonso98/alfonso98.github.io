@@ -318,8 +318,7 @@ input[type=submit]:hover {
   #About-img {
     grid-row: 2/3;
     grid-column: 1/2;
-    display: flex;
-    align-items: center;
+    margin-top: 40px;
   }
 
   #About-img img {
