@@ -85,7 +85,6 @@ table, th, td {
   grid-row: 3/4;
   grid-column: 1/-1;
   font-size: 8vw;
-  text-align: center;
 }
 
 #AboutMe {
@@ -298,8 +297,6 @@ input[type=submit]:hover {
     grid-row: 2/-1;
     grid-column: 2/3;
     font-size: 3vw;
-    display: flex;
-    align-items: center;
   }
 
   #Top .Menu {
